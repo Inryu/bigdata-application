@@ -19,6 +19,8 @@
 
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/bootstrap-table@1.18.0/dist/bootstrap-table.min.css" rel="stylesheet">
+
 
 </head>
 
@@ -26,3 +28,11 @@
 
 <!-- Page Wrapper -->
 <div id="wrapper">
+
+<?php
+$conn = mysqli_connect(
+'localhost',
+'root',
+'sir104401',
+'test');
+?>
