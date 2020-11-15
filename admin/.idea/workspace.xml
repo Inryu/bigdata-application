@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ba960843-2e5b-432c-a9ab-c2c5f019d01c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lyj/delete.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lyj/graph_lyj.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lyj/insert_lyj.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lyj/mining_lyj.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lyj/rank_lyj.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lyj/ratio_lyj.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lyj/recomand_lyj.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lyj/recommend2_lyj.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lyj/table_control_lyj.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lyj/update_lyj.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/navbar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/scripts.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/scripts.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1kGs2yDMyIz92wv8VF3KbOEjb06" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ba960843-2e5b-432c-a9ab-c2c5f019d01c" name="Default Changelist" comment="" />
+      <created>1605338059522</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605338059522</updated>
+      <workItem from="1605338060975" duration="61564000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="640" y="156" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605367060324">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state x="640" y="156" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.825@0.23.1440.825" timestamp="1605367060324" />
+    <state x="376" y="203" key="NewPhpFileDialog" timestamp="1605465156781">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state x="885" y="370" key="NewPhpFileDialog/0.23.1440.824@0.23.1440.824" timestamp="1605340230910" />
+    <state x="885" y="370" key="NewPhpFileDialog/0.23.1440.825@0.23.1440.825" timestamp="1605376486580" />
+    <state x="376" y="203" key="NewPhpFileDialog/0.23.1440.826@0.23.1440.826" timestamp="1605465156781" />
+    <state x="885" y="370" key="NewPhpFileDialog/0.23.1440.827@0.23.1440.827" timestamp="1605425484986" />
+    <state x="471" y="333" key="run.anything.popup" timestamp="1605437899861">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state x="471" y="333" key="run.anything.popup/0.23.1440.826@0.23.1440.826" timestamp="1605437899861" />
+    <state x="143" y="173" width="670" height="676" key="search.everywhere.popup" timestamp="1605447911219">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state x="143" y="173" width="670" height="676" key="search.everywhere.popup/0.23.1440.826@0.23.1440.826" timestamp="1605447911219" />
+  </component>
+</project>
