@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin 2 - Dashboard</title>
+    <title>볶음밥동호회</title>
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -29,10 +29,14 @@
 <!-- Page Wrapper -->
 <div id="wrapper">
 
+
 <?php
 $conn = mysqli_connect(
-'localhost',
-'root',
-'sir104401',
-'test');
+    'localhost',
+    'team18',
+    'team18',
+    'team18');
+
+@session_start();
+
 ?>

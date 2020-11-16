@@ -1,9 +1,9 @@
 <?php
 $conn = mysqli_connect(
     'localhost',
-    'root',
-    'sir104401',
-    'test');
+    'team18',
+    'team18',
+    'team18');
 
 settype($_POST['sight_id'], 'integer');
 

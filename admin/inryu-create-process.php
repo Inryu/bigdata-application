@@ -1,9 +1,9 @@
 <?php
 $conn = mysqli_connect(
     'localhost',
-    'root',
-    'sir104401',
-    'test');
+    'team18',
+    'team18',
+    'team18');
 
 $filtered = array(
     'sight_name'=>mysqli_real_escape_string($conn, $_POST['sight_name']),

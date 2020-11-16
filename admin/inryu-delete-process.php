@@ -1,9 +1,9 @@
 <?php
 $conn = mysqli_connect(
-    'localhost',
-    'root',
-    'sir104401',
-    'test');
+'localhost',
+'team18',
+'team18',
+'team18');
 
 if(isset($_GET['sight-id'])) {
     $filtered_id = mysqli_real_escape_string($conn, $_GET['sight-id']);
