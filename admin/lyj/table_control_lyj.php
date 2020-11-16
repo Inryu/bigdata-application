@@ -2,7 +2,7 @@
 include('../includes/header.php');
 include('../includes/navbar.php');
 
-$conn = mysqli_connect("127.0.0.1", "root", "654321", "test01");
+
 
 ?>
 
@@ -110,101 +110,6 @@ $conn = mysqli_connect("127.0.0.1", "root", "654321", "test01");
 
 
 
-<!-- Modal -->
-<div class="modal fade" id="modiadminprofile" data-backdrop="static" data-keyboard="false" tabindex="-1"
-     aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="staticBackdropLabel">Modify Info</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <form action="update_lyj.php" method="POST">
-                <div class="modal-body">
-                    <div class="form-group">
-                        <label>가게 이름 </label>
-                        <input type="text" name="res_name" class="form-control">
-                    </div>
-
-                    <div class="form-group">
-                        <label>ID </label>
-                        <input type="hidden" name="hiddenValue" id="hiddenValue" value=""/>
-                    </div>
-
-                    <div class="form-group">
-                        <label>카테고리</label>
-                        <select name="category_select" aria-controls="dataTable"
-                                class="custom-select custom-select-sm form-control form-control-sm">
-                            <option value="2">한식</option>
-                            <option value="3">양식</option>
-                            <option value="4">중식</option>
-                            <option value="5">일식</option>
-                            <option value="6">디저트</option>
-                        </select>
-                    </div>
-
-                    <div class="form-group">
-                        <label>주소</label>
-                        <select name="address_select" aria-controls="dataTable"
-                                class="custom-select custom-select-sm form-control form-control-sm">
-                            <option value="한림읍">한림읍</option>
-                            <option value="조천읍">조천읍</option>
-                            <option value="우도면">우도면</option>
-                            <option value="이도1동">이도1동</option>
-                            <option value="삼도2동">삼도2동</option>
-                            <option value="건입동">건입동</option>
-                            <option value="봉개동">봉개동</option>
-                            <option value="연동">연동</option>
-                            <option value="이호동">이호동</option>
-                            <option value="애월읍">애월읍</option>
-                            <option value="한경면">한경면</option>
-                            <option value="일도1동">일도1동</option>
-                            <option value="이도2동">이도2동</option>
-                            <option value="용담1동">용담1동</option>
-                            <option value="화북동">화북동</option>
-                            <option value="아라동">아라동</option>
-                            <option value="노형동">노형동</option>
-                            <option value="도두동">도두동</option>
-                            <option value="구좌읍">구좌읍</option>
-                            <option value="주자면">주자면</option>
-                            <option value="일도2동">일도2동</option>
-                            <option value="삼도1동">삼도1동</option>
-                            <option value="삼양동">삼양동</option>
-                            <option value="오라동">오라동</option>
-                            <option value="외도동">외도동</option>
-                            <option value="대정읍">대정읍</option>
-                            <option value="남원읍">남원읍</option>
-                            <option value="안덕면">안덕면</option>
-                            <option value="표선면">표선면</option>
-                            <option value="송산동">송산동</option>
-                            <option value="정방동">정방동</option>
-                            <option value="중앙동">중앙동</option>
-                            <option value="천지동">천지동</option>
-                            <option value="효돈동">효돈동</option>
-                            <option value="영천동">영천동</option>
-                            <option value="동홍동">동홍동</option>
-                            <option value="서홍동">서홍동</option>
-                            <option value="대륜동">대륜동</option>
-                            <option value="대천동">대천동</option>
-                            <option value="중문동">중문동</option>
-                            <option value="예래동">예래동</option>
-                        </select>
-                    </div>
-
-
-                </div>
-
-
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="submit" class="btn btn-primary">Insert</button>
-                </div>
-            </form>
-        </div>
-    </div>
-</div>
 
 
 
@@ -234,6 +139,7 @@ $conn = mysqli_connect("127.0.0.1", "root", "654321", "test01");
                     <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                         <thead>
                         <tr>
+                            <th>번호</th>
                             <th>가게이름</th>
                             <th>주소</th>
                             <th>평점</th>
@@ -249,7 +155,7 @@ $conn = mysqli_connect("127.0.0.1", "root", "654321", "test01");
                         $sql = "select id,name,rate,visit_num,address
                                     from restaurant
                                     where id>6
-                                    order by name";
+                                    order by id";
 
                         $res = mysqli_query($conn, $sql);
 
@@ -257,20 +163,20 @@ $conn = mysqli_connect("127.0.0.1", "root", "654321", "test01");
                             $id_identify = $row['id'];
                             ?>
                             <tr>
+                                <td><?= $row['id'] ?></td>
                                 <td><?= $row['name'] ?></td>
                                 <td><?= $row['address'] ?></td>
                                 <td><?= $row['rate'] ?></td>
                                 <td><?= $row['visit_num'] ?></td>
                                 <td>
-                                    <button type="button" class="btn btn-success btn-circle btn-sm" data-id="my_id_value" data-toggle="modal" data-target="#modiadminprofile" onclick="PopupEmpInfo(<?=$row['id']?>)">
+                                    <a href="./update_lyj.php?id=<?=$row['id']?>" class="btn btn-success btn-circle btn-sm">
                                         <img src="./check-solid.svg" width="15" height="15"></img>
-                                    </button>
+                                    </a>
 
                                 </td>
                                 <form name="delete_update" method="get">
                                     <td>
-                                        <a href="./delete.php?id=<?= $row['id'] ?>"
-                                           class="btn btn-danger btn-circle btn-sm">
+                                        <a href="./delete.php?id=<?= $row['id'] ?>" class="btn btn-danger btn-circle btn-sm">
                                             <img src="./trash-alt-solid.svg" width="15" height="15"></img>
                                         </a>
                                     </td>

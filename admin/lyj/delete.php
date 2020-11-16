@@ -1,6 +1,10 @@
 <?php
 
-$conn = mysqli_connect("127.0.0.1", "root", "654321", "test01");
+$conn = mysqli_connect(
+    'localhost',
+    'team18',
+    'team18',
+    'team18');
 
 
 $id = $_GET['id'];
@@ -38,3 +42,6 @@ location.href='./table_control_lyj.php';
 
 
 ?>
+
+
+

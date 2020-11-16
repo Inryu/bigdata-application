@@ -1,7 +1,12 @@
 <?php
 
-$conn = mysqli_connect("127.0.0.1", "root", "654321", "test01");
 
+
+$conn = mysqli_connect(
+    'localhost',
+    'team18',
+    'team18',
+    'team18');
 
 $p_id = $_POST['category_select'];
 $name = $_POST['res_name'];
@@ -41,3 +46,4 @@ location.href='./table_control_lyj.php';
 
 
 ?>
+

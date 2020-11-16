@@ -2,8 +2,11 @@
 include('../includes/header.php');
 include('../includes/navbar.php');
 
-//ranking query
-$conn = mysqli_connect("127.0.0.1", "root", "654321", "test01");
+$conn = mysqli_connect(
+    'localhost',
+    'team01',
+    'team18',
+    'team18');
 
 
 

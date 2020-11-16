@@ -3,7 +3,7 @@ include('../includes/header.php');
 include('../includes/navbar.php');
 
 //ranking query
-$conn = mysqli_connect("127.0.0.1", "root", "654321", "test01");
+
 $sql = "select name,rate,address,rank() over(partition by p_id order by rate desc) as s_rank from restaurant where p_id != 1 and p_id != 0 limit 5";
 $res = mysqli_query($conn, $sql); //conn이 왜없는..?
 

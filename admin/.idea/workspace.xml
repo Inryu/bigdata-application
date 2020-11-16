@@ -2,19 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba960843-2e5b-432c-a9ab-c2c5f019d01c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lyj/delete.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lyj/graph_lyj.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lyj/insert_lyj.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lyj/mining_lyj.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lyj/rank_lyj.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lyj/ratio_lyj.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lyj/recomand_lyj.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lyj/recommend2_lyj.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lyj/table_control_lyj.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lyj/update_lyj.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lyj.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lyj/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lyj/real_update_lyj.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/navbar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/scripts.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/scripts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lyj/createdb_lyj_new.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lyj/delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/lyj/delete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lyj/graph_lyj.php" beforeDir="false" afterPath="$PROJECT_DIR$/lyj/graph_lyj.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lyj/insert_lyj.php" beforeDir="false" afterPath="$PROJECT_DIR$/lyj/insert_lyj.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lyj/mining_lyj.php" beforeDir="false" afterPath="$PROJECT_DIR$/lyj/mining_lyj.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lyj/rank_lyj.php" beforeDir="false" afterPath="$PROJECT_DIR$/lyj/rank_lyj.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lyj/ratio_lyj.php" beforeDir="false" afterPath="$PROJECT_DIR$/lyj/ratio_lyj.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lyj/recomand_lyj.php" beforeDir="false" afterPath="$PROJECT_DIR$/lyj/recomand_lyj.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lyj/recommend2_lyj.php" beforeDir="false" afterPath="$PROJECT_DIR$/lyj/recommend2_lyj.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lyj/table_control_lyj.php" beforeDir="false" afterPath="$PROJECT_DIR$/lyj/table_control_lyj.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lyj/update_lyj.php" beforeDir="false" afterPath="$PROJECT_DIR$/lyj/update_lyj.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +44,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lyj" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -49,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605338059522</updated>
-      <workItem from="1605338060975" duration="61564000" />
+      <workItem from="1605338060975" duration="71152000" />
     </task>
     <servers />
   </component>
@@ -61,12 +69,12 @@
       <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state x="640" y="156" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.825@0.23.1440.825" timestamp="1605367060324" />
-    <state x="376" y="203" key="NewPhpFileDialog" timestamp="1605465156781">
+    <state x="376" y="203" key="NewPhpFileDialog" timestamp="1605505531587">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="885" y="370" key="NewPhpFileDialog/0.23.1440.824@0.23.1440.824" timestamp="1605340230910" />
     <state x="885" y="370" key="NewPhpFileDialog/0.23.1440.825@0.23.1440.825" timestamp="1605376486580" />
-    <state x="376" y="203" key="NewPhpFileDialog/0.23.1440.826@0.23.1440.826" timestamp="1605465156781" />
+    <state x="376" y="203" key="NewPhpFileDialog/0.23.1440.826@0.23.1440.826" timestamp="1605505531587" />
     <state x="885" y="370" key="NewPhpFileDialog/0.23.1440.827@0.23.1440.827" timestamp="1605425484986" />
     <state x="471" y="333" key="run.anything.popup" timestamp="1605437899861">
       <screen x="0" y="23" width="1440" height="826" />
